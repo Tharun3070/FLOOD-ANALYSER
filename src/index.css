@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #020617;
+    color: #f1f5f9;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+.bg-dot-grid {
+  background-image: radial-gradient(#1e293b 1.5px, transparent 1.5px);
+  background-size: 28px 28px;
+}
+
+.glow-blue {
+  box-shadow: 0 0 25px rgba(37, 99, 235, 0.35);
+}
+
+.glow-orange {
+  box-shadow: 0 0 25px rgba(249, 115, 22, 0.35);
+}
+
+.glow-red {
+  box-shadow: 0 0 25px rgba(239, 68, 68, 0.4);
+}
+
+.glow-emerald {
+  box-shadow: 0 0 25px rgba(16, 185, 129, 0.3);
+}
+
+.glow-purple {
+  box-shadow: 0 0 25px rgba(168, 85, 247, 0.35);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "AI Flood Prediction & Early Warning System",
+  "description": "Multi-factor AI hydrological flood prediction and early warning system with real-time sensor telemetry, ML model benchmarking, interactive flood zone maps, and automated multi-tier emergency response protocols.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
